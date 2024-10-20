@@ -1,0 +1,29 @@
+#---------------RESULTADOS DE LAS PRUEBAS AUTOMATIZADAS---------------
+
+#1.-INTRODUCCIÓN
+
+El proyecto de pruebas automatizadas para la aplicación Petstore ha revelado áreas clave de mejora tanto en las
+respuestas de la API como en la ejecución de las pruebas. A continuación, los puntos más importantes:
+
+#2.-ASPECTOS EVALUADOS/ENCONTRTADOS EN LAS PRUEBAS
+
+- Inconsistencias en las Respuestas de la API:
+    Se detectaron fallos en las respuestas de algunos métodos, especialmente al buscar una mascota por ID. Aunque la mascota
+    estaba registrada, la API no devolvía resultados, lo que afectaba la continuidad de las pruebas.
+
+- Falta de Criterios de Búsqueda Flexibles:
+    La API carece de suficientes opciones de búsqueda, lo que limita la automatización. Incorporar criterios como obtener el
+    último ID registrado facilitaría el proceso y reduciría la necesidad de modificar manualmente los datos.
+
+- Problemas en la Secuencia de Pruebas:
+    Se presentaron dificultades con la sincronización al ejecutar pruebas en cadena (registro, búsqueda y actualización).
+    Además, la devolución de arrays al buscar por estatus complicaba la validación automatizada, ya que el metodo de actualización
+    respondía antes que el de busqueda.
+
+- Oportunidades de Mejora en las Pruebas:
+    Para mejorar la ejecución de las pruebas, se recomienda que la API proporcione respuestas más consistentes y que se
+    amplíen las opciones de búsqueda. Esto permitiría una validación más dinámica y eficiente.
+
+#3.- CONCLUSIÓN GENERAL:
+    Aunque las pruebas revelaron algunos desafíos, no se detectaron problemas críticos. Mejorar la consistencia de las respuestas
+    e implementar tokens permitirá que su futura integración no tenga grandes complicaciones.
