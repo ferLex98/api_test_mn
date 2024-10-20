@@ -1,6 +1,6 @@
------------------------------PRUEBAS AUTOMATIZADAS - EJERCICIO 1-----------------------------
+-----------------------------PRUEBAS AUTOMATIZADAS - EJERCICIO 2-----------------------------
 #DESCRIPCIÓN
-Este proyecto contiene los siguientes casos de prueba", aplicados a las apis del sitio web "PetStore".
+Este proyecto contiene los siguientes casos de prueba, aplicados a las apis del sitio web "PetStore".
 - Agregar una nueva mascota
 - Consultar la mascota ingresada por ID
 - Actualizar nombre y estado “sold” de la mascota
@@ -37,6 +37,8 @@ Sigue estos pasos para configurar tu entorno de trabajo:
 - Construir el Proyecto:
   Ejecuta el siguiente comando para limpiar y construir el proyecto:
   ./gradlew clean build
+  Nota: Debes verificar que se haya creado la carpeta build, en algunos casos suele demorarse un momento
+  hasta finalmente mostrarse.
 
 #3. CONSTRUCCIÓN Y EJECUCIÓN
 
